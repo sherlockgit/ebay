@@ -5,7 +5,7 @@ spring:
     password: admin@123456
     url: jdbc:mysql://39.108.115.173/ebaychain_db?characterEncoding=utf-8&useSSL=false
   jpa:
-    show-sql: false
+    show-sql: true
   jackson:
     default-property-inclusion: non_null
   redis:
