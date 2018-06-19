@@ -30,6 +30,7 @@ public class OrderForm2OrderDTOConverter {
         orderDTO.setBuyerOpenid(orderForm.getOpenid());
         orderDTO.setCarriageFee(orderForm.getCarriage());
         orderDTO.setTaxFee(orderForm.getTaxFee());
+        orderDTO.setCneeIdcard(orderForm.getCneeIdcard());
         if(orderDTO.getCarriageFee() ==null){
         	orderDTO.setCarriageFee(new BigDecimal(BigInteger.ZERO));
         }

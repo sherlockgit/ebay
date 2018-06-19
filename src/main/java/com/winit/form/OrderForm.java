@@ -92,6 +92,11 @@ public class OrderForm {
     private String cneePhone;
 
     /**
+     * 收货人身份证号码
+     */
+    private String cneeIdcard;
+
+    /**
      * 收货人地址
      */
     private String cneeAddress;

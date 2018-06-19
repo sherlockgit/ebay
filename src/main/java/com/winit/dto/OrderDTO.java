@@ -100,6 +100,11 @@ public class OrderDTO {
      * 收货人号码
      */
     private String cneePhone;
+
+    /**
+     * 收货人身份证号码
+     */
+    private String cneeIdcard;
     /**
      * ebay商品ID
      */
