@@ -40,6 +40,10 @@ public class ProductAttrServiceImpl implements ProductAttrService {
 		return repository.findByProductId(productId);
 	}
 
+	/**
+	 *	保存商品属性表
+	 * @param productAttrList
+	 */
 	@Override
 	public void  save(List<ProductAttr> productAttrList) {
 		
@@ -55,6 +59,7 @@ public class ProductAttrServiceImpl implements ProductAttrService {
 						productAttr = productAttrTemp;
 					}
 				}
+				System.out.println(productAttr.toString());
 				 repository.save(productAttr);
 
 			}
